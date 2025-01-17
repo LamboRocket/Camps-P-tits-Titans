@@ -1,0 +1,225 @@
+main .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .camps-title {
+    font-weight: bold;
+    font-size: 10vw;
+
+    margin-bottom: 5vw;
+
+    background: linear-gradient(45deg, #83abd3, #ced5dc);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main .text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    margin-left: -14vw;
+}
+
+main .text .one,
+main .text .two,
+main .text .three {
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 3vw;
+
+    width: 56vw;
+
+    opacity: 0;
+}
+
+.slide-image {
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 10vw;
+}
+
+.slide-image-2 {
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+}
+
+.slide-image .square {
+    width: 12vw;
+    height: 12vw;
+
+    margin-left: 20vw;
+
+    background: linear-gradient(45deg, #83abd3, #ced5dc);
+}
+
+.slide-image-2 .circle {
+    width: 12vw;
+    height: 12vw;
+
+    border-radius: 6vw;
+
+    margin-right: 20vw;
+
+    background: linear-gradient(45deg, #83abd3, #ced5dc);
+}
+
+.slide-image img {
+    width: 25vw;
+    height: 25vw;
+
+    opacity: 0;
+
+    object-fit: cover;
+    object-position: left;
+}
+
+.slide-image-2 img {
+    width: 25vw;
+    height: 25vw;
+
+    opacity: 0;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+main .themes {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+main .themes .themes-title {
+    font-weight: bold;
+    font-size: 10vw;
+
+    margin-bottom: 5vw;
+
+    background: linear-gradient(45deg, #83abd3, #ced5dc);
+
+    opacity: 0;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#horizontal-scrolling {
+    display: flex;
+}
+
+#horizontal-scrolling .theme-section {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    flex-shrink: 0;
+    place-items: center;
+
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+#horizontal-scrolling .theme-section:nth-child(1) {
+    background-color: #ced5dc;
+}
+
+#horizontal-scrolling .theme-section:nth-child(2) {
+    background-color: #81acd0;
+}
+
+#horizontal-scrolling .theme-section:nth-child(3) {
+    background-color: #222e44;
+
+    color: white;
+}
+
+#horizontal-scrolling .theme-section p:nth-child(1) {
+    font-size: 4vw;
+    font-weight: bold;
+    color: black;
+}
+
+#horizontal-scrolling .theme-section p:nth-child(2) {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #222e44;
+    text-align: center;
+
+    width: 70vw;
+}
+
+#horizontal-scrolling .theme-section:nth-child(3) p:nth-child(1) {
+    color: white;
+}
+
+#horizontal-scrolling .theme-section:nth-child(3) p:nth-child(2) {
+    color: #ced5dc;
+}
+
+#horizontal-scrolling .theme-section .inscription-button {
+    padding: 1vw 7vw;
+
+    font-size: 1vw;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 3.5vw;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
+    cursor: pointer;
+
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#horizontal-scrolling .theme-section:nth-child(1) .inscription-button:hover {
+    background-color: #222e44;
+
+    color: white;
+}
+
+#horizontal-scrolling .theme-section:nth-child(1) .inscription-button {
+    background-color: #81acd0;
+
+    color: black;
+}
+
+#horizontal-scrolling .theme-section:nth-child(2) .inscription-button:hover {
+    background-color: #222e44;
+
+    color: white;
+}
+
+#horizontal-scrolling .theme-section:nth-child(2) .inscription-button {
+    background-color: #ced5dc;
+
+    color: black;
+}
+
+#horizontal-scrolling .theme-section:nth-child(3) .inscription-button:hover {
+    background-color: #ced5dc;
+
+    color: black;
+}
+
+#horizontal-scrolling .theme-section:nth-child(3) .inscription-button {
+    background-color: #81acd0;
+
+    color: white;
+}

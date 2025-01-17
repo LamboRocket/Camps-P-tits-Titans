@@ -1,0 +1,65 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 65px;
+
+    background-color: black;
+
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.19);
+
+    padding: 5px 30px;
+
+    z-index: 1000;
+}
+
+.header .header-left-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 215px;
+
+    cursor: pointer;
+}
+
+.header .logo {
+    width: 50px;
+}
+
+.header .website-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header .header-right-section {
+    display: flex;
+}
+
+.see-camps,
+.registration,
+.contact-us {
+    font-size: 15px;
+    font-weight: 200;
+
+    cursor: pointer;
+
+    transition: opacity 0.25s;
+}
+
+.see-camps,
+.registration {
+    margin-right: 1vw;
+}
+
+.see-camps:hover,
+.registration:hover,
+.contact-us:hover {
+    opacity: 0.8;
+}
